@@ -1,0 +1,16 @@
+img {
+    border: 5px solid rgba(0, 128, 0, 0.705);
+    width: 50%;
+}
+h1, p{
+    border: 5px solid rgba(9, 201, 9, 0.671);
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#image-box {
+    text-align: center;
+
+}
+p {
+    font-size:  3em;
+}
