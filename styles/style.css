@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&family=Ubuntu:ital,wght@1,300&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -8,18 +10,31 @@ nav a {
     text-align: center;
     color: white;
     text-decoration: none;
+    font-family: 'Ubuntu';
+    padding: 35px;
 }
 .home-title{
     color: white;
-}
+    font-size: 2em;
+    margin-top: 10px;
 
+}
+.home-grid h2{
+    font-family: Ubuntu;
+}
 #hero-box{
     text-align: center;
 }
-#hero-msg h1, #hero-msg h4 {
+#hero-msg, #hero-msg h4 {
     text-align: center;
+    font-family: 'Ubuntu' ;
 }
-
+h1{
+    font-family: Rock Salt;
+}
+h2{
+    margin: 0;
+}
 .button-box {
     text-align: center;
 }
@@ -32,10 +47,13 @@ main section {
     height: 725px;
 }
 body{
-    background-color: #219ebc
+    background-color: #219ebc;
+    margin: 0;
+    padding: 0;
+
 }
 header{
-    background-color: #023047 ;
+    background-color: #023047;
 }
 nav a:hover {
     background-color: #219ebc;
@@ -46,12 +64,23 @@ nav a:hover {
     background-color: #219ebc;
     color: white;
     text-decoration: none;
+    font-family: Ubuntu;
+    font-size: 18px;
+    padding: 15px 35px;
+    margin-top: 50px;
+    border-radius: 5px;
+
+
 }
 
 .join {
     background-color: #023047 ;
     color: white;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 35px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: #8ecae6;
@@ -61,17 +90,25 @@ nav a:hover {
 .msg {
     background-color: #023047;
     color: white;
+    font-family: Ubuntu;
+    font-size: .8em;
+    line-height: 1.5em;
+    padding: 35px;
+    margin-top: 200px;
 }
 footer {
     background-color: #ffb703;
     text-align: center;
 }
-.msg h2 {
+.msg h2 p{
     color: white;
+    font-family: 'Rock Salt';
+
 }
 
 footer h3 {
     color: #023047;
+    font-family: 'Ubuntu';
 }
 
 footer a {
@@ -85,5 +122,35 @@ footer h3 a:hover {
 }
 .icon {
     width: 80px;
+    padding: 10px;
+}
+#logo_link{
+    padding-top: 5px;
+}
+footer{
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+footer .social img{
+    padding-top: 15px;
+}
+.msg p{
+    padding-bottom: 15px;
+}
+.rivers-card {
+    margin: 200px 0;
+}
+.camping-card {
+    margin: 200px 0
 }
 
+.rapids-card{
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #023047;
+}
+
+main section img {
+    box-sizing: border-box ;
+}
