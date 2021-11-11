@@ -68,6 +68,9 @@ nav a {
     box-shadow: 5px 5px 10px #8ecae6;
 
 }
+#hero-img {
+    width: 100%;
+}
 #hero {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
